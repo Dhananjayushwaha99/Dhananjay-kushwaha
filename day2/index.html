@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic form design Using HTML </title>
+
+  <style>
+    *{
+      margin: 0px;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header{
+     
+      padding: 15px;
+      margin: 10px 10px 6px 0px;
+    }
+
+    .form{
+      padding-left: 20px;
+      
+    }
+
+    .form button {
+      align-items: center;
+      margin-left: 50px;
+    }
+
+    .form p {
+    padding: 10px;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="header" style="background-color: rgb(215, 209, 209);">
+    <h1>GeeksforGeeks</h1>
+    <h3>Basic form design using HTML</h3>
+  </div>
+
+  <div class="form" style="background-color: rgb(206, 205, 205);">
+
+    <form action="submit">
+         <fieldset>
+      <legend>Personal Details : </legend>
+     
+
+     <p>
+        <label>First name :
+        <input name="firstName" /></label>
+          </p>
+
+
+      <p><label for=""> Last Name: </label>
+      <input type="text" placeholder="" ></p>
+      <br>
+     
+
+    <p>
+      Gender:
+      <label > <input type="radio" name="gender" value="male">male</label>
+
+      <label ><input type="radio" name="gender"> female</label>
+    </p>
+
+    
+      
+    <p>  <label for=""> Email : </label>
+      <input type="text" placeholder="" ></p>
+
+        
+        <p>
+        <label for="">Date of birth <input type="date"></label>
+        </p>
+      
+        <p>
+          <label for="">Address
+            <br>
+            <textarea name="address" rows="5" cols="40"></textarea>
+
+          </label>
+
+        </p>
+      
+       <p>
+        
+      <button type="submit" style="background-color:blue">submit</button>
+       </p>
+
+      </fieldset>
+    </form>
+   
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
